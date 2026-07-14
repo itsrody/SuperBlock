@@ -1,5 +1,5 @@
 ! Title: ⚡️ SuperBlock 
-! Version: 0.3
+! Version: 0.4
 ! Description: My custom annoyances list tightly optimized for Brave Browser' adblock-rust engine.
 ! Maintainer: Murtaza Salih
 ! Expires: 7 days
@@ -26,6 +26,10 @@ faselhdx.bid##:matches-path(/series/) .seasonMeta
 5tv.*##body.series-template-default .ftvx-recommend-btn
 rtcoi.xyz##main#site-content > :not(.servers--section)
 rtcoi.xyz###site-footer
+
+! WeCima
+wecima.*###menu-item-1260202, #menu-item-1253822, productionslistbutton, .LoginButton, .GotoTop, .PostItemStats, .site-footer
+wecima.*##body.wp-singular singlecontainerleft, .WecimaonSocialnetwork, .Download--Wecima--Single, singlerelated
 
 ! Supjav.com
 supjav.com##[id^="menu-item-"]:not(#menu-item-16, #menu-item-17, #menu-item-17, #menu-item-139212, #menu-item-74330, #menu-item-74328, #menu-item-74329)
