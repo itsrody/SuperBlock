@@ -1,30 +1,15 @@
-! Title: ⚡️ SuperBlock
-! Version: 1.2
-! Description: My custom annoyances blocking list optimized to fully support uBlock Origin syntax.
+! Title: ⚡️ SuperBlock 
+! Version: 0.1 reset
+! Description: My custom annoyances list tightly optimized for Brave Browser' adblock-rust engine.
 ! Maintainer: Murtaza Salih
 ! Expires: 7 days
 ! Homepage: https://github.com/itsrody/SuperShield
 
-! FaselHD
-faselhdx.*##div:has(a[href*="utm_medium=banner"]), #lastnews, .promoLink, .social, .accBtn, .slideMeta, .blockMovieMeta, #pr, #footer
-faselhdx.*##.seasonMeta, .social-block, .alert-danger, .downloadLinks, .postElse, .posTop
-
-! 5TV
-5tv.*#.btn-login, .btn-signup, #menu-item-129997, #menu-item-106263
-5tv.*###admin_category_slider_widget-11
-5tv.*###admin_category_slider_widget-5
-5tv.*###admin_category_slider_widget-6
-5tv.*###admin_category_slider_widget-9
-5tv.*###admin_category_slider_widget-7
-5tv.*###admin_category_slider_widget-3
-5tv.*###admin_category_slider_widget-8
-5tv.*##.ft.tac
-5tv.*##.ftvm-btn
-5tv.*##.comments-title
-5tv.*##.rw.alg-cr.jst-sb
-5tv.*##.owl-stage, .owl-dots
-rtcoi.*##.entry-header, .post-inner, .section-inner, #respond, #site-footer, #server--title
-
-
-! CEE 
-~cee##cinemana-collections, .pwa-modal-container
+! supjav.com
+supjav.com##[id^="menu-item-"]:not(#menu-item-16, #menu-item-17, #menu-item-17, #menu-item-139212, #menu-item-74330, #menu-item-74328, #menu-item-74329)
+supjav.com##[id^="mocat-"]:not(#mocat-106, #mocat-3), .recommend, .footer
+supjav.com##:matches-path(/^./) .downscase 
+supjav.com##:matches-path(/^./) .content:nth-of-type(6)
+supjav.com##:matches-path(/^./) .hr:is(:nth-of-type(1), :nth-of-type(3))
+supjav.com##:matches-path(/^./) .video-wrap:style(padding: 0 !important;)
+supjav.com##:matches-path(/^./) .video-wrap #dz_video:style(height: 750px !important;)
