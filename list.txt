@@ -1,5 +1,5 @@
 ! Title: ⚡️ SuperBlock 
-! Version: 0.2
+! Version: 0.3
 ! Description: My custom annoyances list tightly optimized for Brave Browser' adblock-rust engine.
 ! Maintainer: Murtaza Salih
 ! Expires: 7 days
@@ -9,7 +9,25 @@
 faselhdx.bid##:matches-path(/^./) :is(#pr, #lastnews, #footer, #Teamwork, .promoLink, .accBtn, .social, .slideMeta, .blockMovieMeta, .singleStar, .alert.alert-danger, .social-block, .downloadLinks, .postElse, .posTop, .slider > .container, div:has(a[href*="utm_medium=banner"]))
 faselhdx.bid##:matches-path(/series/) .seasonMeta
 
-! supjav.com
+!5TV
+5tv.*##[id^="menu-item-"]:is(#menu-item-106263, #menu-item-129997)
+5tv.*##.rw.dv, .ft.tac
+5tv.*##body.home [id^="admin_category_slider_widget-"]
+5tv.*##:matches-path(/^./) .comments-title
+5tv.*##:matches-path(/^./) .owl-carousel.owl-rtl
+5tv.*##:matches-path(/^./) .ftvm-actions
+5tv.*##:matches-path(/^./) .rw.alg-cr.jst-sb
+5tv.*##:matches-path(/series/) .ftvx-actions
+5tv.*##:matches-path(/episode/) .ftve-actions
+5tv.*##:matches-path(/series/) .ftvx-panel.ftvx-comments
+5tv.*##:matches-path(/^./) .ftvm-recommend-btn
+5tv.*##:matches-path(/^./) .widget-title
+5tv.*##body.tax-episodes .ftve-recommend-btn
+5tv.*##body.series-template-default .ftvx-recommend-btn
+rtcoi.xyz##main#site-content > :not(.servers--section)
+rtcoi.xyz###site-footer
+
+! Supjav.com
 supjav.com##[id^="menu-item-"]:not(#menu-item-16, #menu-item-17, #menu-item-17, #menu-item-139212, #menu-item-74330, #menu-item-74328, #menu-item-74329)
 supjav.com##[id^="mocat-"]:not(#mocat-106, #mocat-3), .recommend, .footer
 supjav.com##:matches-path(/^./) :is( .downscase, div.content:nth-of-type(6)
